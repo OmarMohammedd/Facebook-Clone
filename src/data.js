@@ -165,7 +165,7 @@ export const Posts = [
     photo: "/assets/posts/post5.jpg",
     date: "2 days ago",
     like: "560",
-    comment: "200",
+    comment: "20",
   },
   {
     userId: 2,
