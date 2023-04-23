@@ -91,3 +91,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 490px) {
+  .Feelings {
+    display: none !important;
+  }
+  .shareOption{
+    margin-right: 10px !important;
+  }
+  .shareOptions{
+    margin-left: 10px !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  .shareInput {
+    font-size: 15px !important;
+    width: 80%;
+  }
+}

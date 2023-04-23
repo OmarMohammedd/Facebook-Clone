@@ -2,6 +2,7 @@
     position: relative;
     flex-basis: 20%;
     margin: 5px;
+    width: 100%;
 
     .storyProfile{
         display: flex;
@@ -40,4 +41,25 @@
         cursor: pointer;
         color: #fff;
     }
+}
+
+@media only screen and (max-width: 490px) {
+  .storyCard:last-of-type {
+     display: none !important;
+  }
+  .storyCard{
+    flex-basis: 60% !important;
+    margin: 2px !important;
+  }
+  .storyProfile{
+    height: 40px !important;
+    width: 40px !important;
+    top: 8px !important;
+    left: 8px !important;
+}
+}
+@media only screen and (max-width: 380px) {
+  .storyCard:nth-last-of-type(3) {
+     display: none !important;
+  }
 }

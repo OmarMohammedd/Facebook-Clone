@@ -55,7 +55,7 @@ const Share = () => {
                 onChange={(e) => setFile(e.target.files[0])}
               />
             </label>
-            <div className="shareOption">
+            <div className="shareOption Feelings">
               <EmojiEmotions
                 className="shareIcon"
                 style={{ color: "#bfc600ec" }}
